@@ -1,3 +1,4 @@
+import './App.scss';
 import Navbar from './components/navbar/Navbar';
 import Intro from './components/intro/Intro';
 import Portfolio from './components/porfolio/Portfolio';
