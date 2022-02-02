@@ -37,23 +37,14 @@
   margin-right: 40px;
 }
 
-.navbar .wrapper .left .itemContainer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-left: 30px;
+.navbar .wrapper .right .hamburger {
+  text-decoration: none;
+  margin: 5px;
+  font-size: 20px;
+  cursor: pointer;
 }
 
-.navbar .wrapper .left .itemContainer .icon {
-  font-size: 18px;
-  margin-right: 5px;
-}
-
-.navbar .wrapper .left .itemContainer span {
-  font-size: 15px;
+.navbar .wrapper .right .hamburger:hover {
   font-weight: bold;
 }
 /*# sourceMappingURL=navbar.css.map */
