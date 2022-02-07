@@ -1,12 +1,13 @@
-li {
-  font-size: 12px;
+.portfolioList {
+  border: none;
+  font-size: 15px;
   margin-right: 50px;
   padding: 7px;
   border-radius: 10px;
   cursor: pointer;
 }
 
-li.active {
+.portfolioList.active {
   background-color: indigo;
   color: white;
 }

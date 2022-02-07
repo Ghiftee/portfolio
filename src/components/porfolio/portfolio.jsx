@@ -1,10 +1,9 @@
-/* eslint-disable react/prop-types */
 import { useEffect, useState } from 'react';
 import PortfolioList from '../portfolioList/PortfolioList';
 import './portfolio.scss';
 import { webPortfolio, articlePortfolio } from '../../data';
 
-export default function Portfolio() {
+export default function portfolio() {
   const [selected, setSelected] = useState('web');
   const [data, setData] = useState([]);
   const list = [
@@ -13,17 +12,16 @@ export default function Portfolio() {
       title: 'Web Applications',
     },
     {
-      id: 'article',
+      id: 'articles',
       title: 'Articles',
     },
   ];
-
   useEffect(() => {
     switch (selected) {
       case 'web':
         setData(webPortfolio);
         break;
-      case 'article':
+      case 'articles':
         setData(articlePortfolio);
         break;
       default:
@@ -48,7 +46,10 @@ export default function Portfolio() {
       <div className="container">
         {data.map((d) => (
           <div className="item" key={d}>
-            <img src={d.img} alt="" />
+            <img
+              src={d.img}
+              alt="leaderboard"
+            />
             <h3>{d.title}</h3>
           </div>
         ))}

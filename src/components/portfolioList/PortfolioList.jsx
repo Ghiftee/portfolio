@@ -5,7 +5,6 @@ function PortfolioList(
   {
     id, title, active, setSelected,
   },
-
 ) {
   return (
     <li>
