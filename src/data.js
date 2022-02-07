@@ -4,6 +4,11 @@ export const webPortfolio = [
     title: 'Leaderboard',
     img: 'assets/leaderboard-1.png',
   },
+  {
+    id: 2,
+    title: 'Leaderboard',
+    img: 'assets/leaderboard-1.png',
+  },
 ];
 
 export const articlePortfolio = [
