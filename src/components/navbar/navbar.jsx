@@ -1,5 +1,4 @@
 import './navbar.scss';
-// import { Person, Mail } from '@material-ui/icons';
 
 export default function Navbar() {
   return (
@@ -18,13 +17,3 @@ export default function Navbar() {
     </div>
   );
 }
-
-// Removed from under intro
-// <div className="itemContainer">
-//             <Person className="icon" />
-//             <span>+0000000</span>
-//           </div>
-//           <div className="itemContainer">
-//             <Mail className="icon" />
-//             <span>gigibetine@gmail.com</span>
-//           </div>

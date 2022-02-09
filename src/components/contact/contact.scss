@@ -1,3 +1,50 @@
 .contact{
-  background-color: lightblue;
+  background-color: rgb(208, 201, 201);
+  display: flex;
+
+  .left{
+    flex: 1;
+    overflow: hidden;
+
+    img{
+      height: 100%;
+    }
+  }
+
+  .right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // justify-content: center;
+
+    h2{
+      text-decoration: underline;
+      font-size: 60px;
+      margin: 50px;
+    }
+
+    p{
+      margin: 30px;
+      font-size: 20px;
+    }
+
+    .itemContainer{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      margin: 10px;
+      // margin-left: 30px;
+
+      .icon{
+        font-size: 20px;
+        margin-right: 5px;
+      }
+
+      span{
+        font-size: 25px;
+        font-weight: bold;
+      }
+    }
+  }
 }
